@@ -10,3 +10,5 @@ def sort_array_char_count(array)
   array.sort do |a,b|
     if a.length == b.length
       return 0 
+    elsif a.length < b.length
+      return 

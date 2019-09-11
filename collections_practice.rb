@@ -39,3 +39,8 @@ def reverse_array(array)
     return reverse_array(array[1, array.length-1])+[array[0]]
   end
 end 
+
+def kesha_maker(array)
+  array.each { |string|
+    string[2] = "$"
+  }

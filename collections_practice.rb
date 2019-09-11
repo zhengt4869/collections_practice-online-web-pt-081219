@@ -33,9 +33,9 @@ def swap_elements_from_to(array, index, destination_index)
 end 
 
 def reverse_array(array)
-  if array.length == 1 
-    return array 
+  if array.length == 0
+    return
   else 
-    return reverse_array(array[2, array.length-1])+[array[0]]
+    return reverse_array(array[1, array.length-1])+[array[0]]
   end
 end 

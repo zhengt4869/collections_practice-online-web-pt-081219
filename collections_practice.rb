@@ -37,3 +37,5 @@ def reverse_array(array)
     return array 
   else 
     return reverse_array(array[2, array.length-1])+[array[0]]
+  end
+end 

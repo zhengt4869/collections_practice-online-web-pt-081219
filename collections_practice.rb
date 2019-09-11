@@ -31,3 +31,8 @@ def swap_elements_from_to(array, index, destination_index)
   array[destination_index] = temp 
   return array 
 end 
+
+def reverse_array(array)
+  if array.length == 1 
+    return array 
+  end 
